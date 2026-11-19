@@ -26,7 +26,7 @@ const seedDatabase = async () => {
     });
 
     const agent = await User.create({
-      name: 'Sarah Jenkins',
+      name: 'Akish Shaw',
       email: 'sarah.agent@ctss.com',
       password: 'AgentPassword123',
       role: 'admin',
@@ -35,7 +35,7 @@ const seedDatabase = async () => {
     });
 
     const customer1 = await User.create({
-      name: 'Alex Johnson',
+      name: 'Shuvro Dey',
       email: 'customer@ctss.com',
       password: 'CustomerPassword123',
       role: 'customer',
@@ -43,7 +43,7 @@ const seedDatabase = async () => {
     });
 
     const customer2 = await User.create({
-      name: 'Elena Rostova',
+      name: 'Shreya Roy Gupta',
       email: 'elena@techcorp.io',
       password: 'CustomerPassword123',
       role: 'customer',
